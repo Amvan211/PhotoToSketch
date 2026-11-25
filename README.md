@@ -110,8 +110,8 @@ streamlit run app.py
 python -m pytest -v
 ```
 
-Test bao phủ I/O, grayscale, convolution, Gaussian, Bilateral, Sobel, ba
-phong cách, ảnh trung gian và kiểm tra tham số.
+Test bao phủ I/O, grayscale, convolution, Gaussian, Bilateral, Sobel,
+Pencil Sketch, ảnh trung gian và kiểm tra tham số.
 
 ## Thực nghiệm
 
