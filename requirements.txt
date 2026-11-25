@@ -1,0 +1,11 @@
+# Giao diện ứng dụng
+streamlit>=1.40,<2.0
+
+# Tính toán mảng và xử lý ma trận ảnh
+numpy>=1.26
+
+# Đọc và ghi ảnh
+Pillow>=10.0
+
+# Chạy kiểm thử
+pytest>=8.0

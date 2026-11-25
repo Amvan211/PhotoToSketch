@@ -1,0 +1,30 @@
+# Virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# User-provided/sample images are kept locally, not published
+data/input/*
+data/test_cases/*
+!data/input/.gitkeep
+!data/test_cases/.gitkeep
+
+# Generated experiment artifacts
+results/output/*
+results/comparison/*
+results/benchmark.csv
+!results/output/.gitkeep
+!results/comparison/.gitkeep
